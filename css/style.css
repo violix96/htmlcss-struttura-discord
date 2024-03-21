@@ -45,11 +45,22 @@ header{
     
 }
 
+.col-40{
+    width: 40%;
+    border: 1px dashed black;
+
+}
 
 .col-50{
     width: 50%;
     border: 1px dashed black;
     
+}
+
+.col-60{
+    width: 60%;
+    border: 1px dashed black;
+
 }
 
 .col-100{
@@ -69,4 +80,8 @@ header{
 
 .bg-violet{
     background-color: violet;
+}
+
+.bg-pink{
+    background-color: pink;
 }
