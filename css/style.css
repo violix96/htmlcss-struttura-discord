@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: aqua;
+    height: 70px;
+
+    
+}
+
+.container{
+    background-color: orange;
+    max-width: 900px;
+    margin: 0px auto;
+    height: 50px;
+    max-width: 900px;
+    
+   
+}
+
+.row{
+    display: flex;
+    height: 100%;
+    background-color: orange;
+    border: 1px dashed black;
+}
+
+.col-50{
+    margin: 10px;
+    width: 150px;
+    height: 25px;
+    background-color: transparent;
+    
+
+
+}
+
+.col-100{
+    margin: 1px 0px;
+    width: calc(100% / 3);
+    height: 47px;
+    background-color: orange;
+    border-left: 2px dashed black;
+    border-right: 2px dashed black;
+
+    flex-grow: 1;
+}
+}
