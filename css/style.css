@@ -43,6 +43,11 @@ header{
 }
 
 
+.col-20{
+    width: 20%;
+    border: 1px dashed black;
+
+}
 .col-25{
     width: 25%;
     border: 1px dashed black;
@@ -93,7 +98,22 @@ header{
 .bg-grey{
     background-color: grey;
 }
+.bg-darkgrey{
+    background-color: #302828;
+}
 
 .bg-green{
     background-color: green;
+}
+
+.bg-darkgrey{
+    background-color: darkgrey;
+}
+
+.bg-verdeacqua{
+    background-color: lightseagreen;
+}
+
+.bg-darkpink{
+    background-color: #d62166;
 }
