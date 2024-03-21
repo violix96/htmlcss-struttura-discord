@@ -15,6 +15,12 @@ header{
     
 }
 
+.container-sm{
+    max-width: 800px;
+    margin: 30px auto;
+    
+}
+
 .row{
     display: flex;
     
@@ -24,6 +30,13 @@ header{
     height: 40px;
 }
 
+.height-l{
+    height: 400px;
+}
+
+.py-20{
+    padding: 20px 0px;
+}
 
 
 .col-25{
@@ -39,9 +52,21 @@ header{
     
 }
 
+.col-100{
+    width: 100%;
+    border: 1px dashed black;
+}
+
  /* colori */
 
  .bg-orange{
     background-color: orange;
  }
 
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-violet{
+    background-color: violet;
+}
