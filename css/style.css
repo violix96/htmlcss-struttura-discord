@@ -15,7 +15,7 @@ header{
     background-color: orange;
     max-width: 900px;
     margin: 0px auto;
-    height: 50px;
+    height: 51px;
     max-width: 900px;
     
    
@@ -47,5 +47,4 @@ header{
     border-right: 2px dashed black;
 
     flex-grow: 1;
-}
 }
