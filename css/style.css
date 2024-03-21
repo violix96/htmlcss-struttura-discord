@@ -5,46 +5,43 @@
 }
 
 header{
-    background-color: aqua;
-    height: 70px;
-
-    
+    background-color: lightblue;
+    padding: 10px 0px;
 }
 
 .container{
-    background-color: orange;
-    max-width: 900px;
-    margin: 0px auto;
-    height: 51px;
-    max-width: 900px;
+    max-width: 1200px;
+    margin: 30px auto;
     
-   
 }
 
 .row{
     display: flex;
-    height: 100%;
-    background-color: orange;
-    border: 1px dashed black;
+    
 }
+
+.height-sm{
+    height: 40px;
+}
+
+
+
+.col-25{
+    width: 25%;
+    border: 1px dashed black;
+    
+}
+
 
 .col-50{
-    margin: 10px;
-    width: 150px;
-    height: 25px;
-    background-color: transparent;
+    width: 50%;
+    border: 1px dashed black;
     
-
-
 }
 
-.col-100{
-    margin: 1px 0px;
-    width: calc(100% / 3);
-    height: 47px;
+ /* colori */
+
+ .bg-orange{
     background-color: orange;
-    border-left: 2px dashed black;
-    border-right: 2px dashed black;
+ }
 
-    flex-grow: 1;
-}
