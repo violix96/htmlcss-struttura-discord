@@ -34,6 +34,10 @@ header{
     height: 400px;
 }
 
+.height-xl{
+    height: 500px;
+}
+
 .py-20{
     padding: 20px 0px;
 }
@@ -88,4 +92,8 @@ header{
 
 .bg-grey{
     background-color: grey;
+}
+
+.bg-green{
+    background-color: green;
 }
