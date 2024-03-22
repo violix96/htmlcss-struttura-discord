@@ -23,6 +23,7 @@ header{
 
 .row{
     display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -53,6 +54,11 @@ header{
     width: 25%;
     border: 1px dashed black;
     
+}
+
+.col-30{
+    width: 30%; 
+    /* prova colonna viola  */
 }
 
 .col-40{
@@ -126,3 +132,8 @@ header{
 .space-between{
     justify-content: space-between;
 }
+
+.centratura{
+    text-align: center;
+}
+
